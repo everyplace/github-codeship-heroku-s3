@@ -28,3 +28,7 @@ heroku config:add BUCKET=<amazon s3 bucket>
 ```
 
 Normally, the next step would be to deploy to Heroku, but the purpose of this setup is to use the continuous integration of CodeShip to do deployment, hence the setup between the three services
+
+Note: Codeship key/value environment configuration
+--------------------------------------------------
+There is a way of configuring environment keys in codeship.io, but I didn't get it to work the first time, hence relying on manual key setup.
