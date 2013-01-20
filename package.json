@@ -1,0 +1,19 @@
+{
+  "name": "GithubCodeshipHerokuS3",
+  "version": "0.0.3",
+  "description": "Example for deploying to s3 via codeship/heroku integration",
+  "dependencies": {
+    "node-static": "*",
+    "fstream":"*",
+    "cop":"*",
+    "pushup":"*",
+    "path":"*",
+    "reader":"*",
+    "http":"*",
+    "util":"*"
+  },
+  "engines": {
+    "node": "0.8.x",
+    "npm": "1.1.x"
+  }
+}
